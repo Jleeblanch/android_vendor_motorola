@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_SYSTEM)/bin/qmuxd \
     vendor/motorola/athene/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
     vendor/motorola/athene/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
-    vendor/motorola/athene/proprietary/bin/rild:$(TARGET_COPY_OUT_SYSTEM)/bin/rild \
     vendor/motorola/athene/proprietary/bin/rmt_storage:$(TARGET_COPY_OUT_SYSTEM)/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/sensors.qcom:$(TARGET_COPY_OUT_SYSTEM)/bin/sensors.qcom \
     vendor/motorola/athene/proprietary/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM)/bin/tcmd \
@@ -1034,7 +1033,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db
 
 PRODUCT_PACKAGES += \
-    libril \
     libtime_genoff \
     DMConfigUpdateLight \
     TimeService \
