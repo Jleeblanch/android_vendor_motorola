@@ -375,7 +375,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/motorola/athene/proprietary/vendor/lib/libavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavenhancements.so \
     vendor/motorola/athene/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/motorola/athene/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/motorola/athene/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
     vendor/motorola/athene/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
