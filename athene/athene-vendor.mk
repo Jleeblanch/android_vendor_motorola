@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/rcsservice.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/rcsservice.jar \
     vendor/motorola/athene/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/motorola/athene/proprietary/framework/tcmiface.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmiface.jar \
-    vendor/motorola/athene/proprietary/lib/hw/camera.vendor.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8952.so \
+    vendor/motorola/athene/proprietary/lib/hw/camera.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
     vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensorhub.msm8952.so \
