@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/fingerprintd:$(TARGET_COPY_OUT_SYSTEM)/bin/fingerprintd \
     vendor/motorola/athene/proprietary/bin/ftmdaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ftmdaemon \
     vendor/motorola/athene/proprietary/bin/ftmipcd:$(TARGET_COPY_OUT_SYSTEM)/bin/ftmipcd \
-    vendor/motorola/athene/proprietary/bin/gpsone_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsone_daemon \
     vendor/motorola/athene/proprietary/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/hal_proxy_daemon \
     vendor/motorola/athene/proprietary/bin/hci_qcomm_init:$(TARGET_COPY_OUT_SYSTEM)/bin/hci_qcomm_init \
     vendor/motorola/athene/proprietary/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/ims_rtp_daemon \
@@ -37,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/imsdatadaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/imsdatadaemon \
     vendor/motorola/athene/proprietary/bin/imsqmidaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/imsqmidaemon \
     vendor/motorola/athene/proprietary/bin/irsc_util:$(TARGET_COPY_OUT_SYSTEM)/bin/irsc_util \
-    vendor/motorola/athene/proprietary/bin/loc_launcher:$(TARGET_COPY_OUT_SYSTEM)/bin/loc_launcher \
     vendor/motorola/athene/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-daemon \
     vendor/motorola/athene/proprietary/bin/motobox:$(TARGET_COPY_OUT_SYSTEM)/bin/motobox \
     vendor/motorola/athene/proprietary/bin/motosh:$(TARGET_COPY_OUT_SYSTEM)/bin/motosh \
@@ -158,11 +156,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.msimsettings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.msimsettings.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.slpc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.slpc.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/athene/proprietary/etc/permissions/ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/ims.xml \
     vendor/motorola/athene/proprietary/etc/permissions/imscm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/imscm.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/athene/proprietary/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcnvitems.xml \
     vendor/motorola/athene/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/motorola/athene/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
@@ -176,12 +171,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/com.motorola.imager.athene.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.motorola.imager.athene.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.motosignature.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.motorola.motosignature.jar \
     vendor/motorola/athene/proprietary/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.dpmframework.jar \
-    vendor/motorola/athene/proprietary/framework/com.qti.location.sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.location.sdk.jar \
-    vendor/motorola/athene/proprietary/framework/com.qualcomm.location.vzw_library.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.location.vzw_library.jar \
     vendor/motorola/athene/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
     vendor/motorola/athene/proprietary/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dpmapi.jar \
     vendor/motorola/athene/proprietary/framework/embmslibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/embmslibrary.jar \
-    vendor/motorola/athene/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
     vendor/motorola/athene/proprietary/framework/qcom.fmradio.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcom.fmradio.jar \
     vendor/motorola/athene/proprietary/framework/qmapbridge.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qmapbridge.jar \
     vendor/motorola/athene/proprietary/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qti-telephony-common.jar \
@@ -191,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/tcmiface.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmiface.jar \
     vendor/motorola/athene/proprietary/lib/hw/camera.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.msm8952.so \
-    vendor/motorola/athene/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
     vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensors.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.msm8952.so \
     vendor/motorola/athene/proprietary/lib/libGLESv3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libGLESv3.so \
@@ -215,9 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libipanat.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libipanat.so \
     vendor/motorola/athene/proprietary/lib/libjscore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjscore.so \
     vendor/motorola/athene/proprietary/lib/libjustshoot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjustshoot.so \
-    vendor/motorola/athene/proprietary/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_api_v02.so \
-    vendor/motorola/athene/proprietary/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_ds_api.so \
-    vendor/motorola/athene/proprietary/lib/libloc_eng.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_eng.so \
     vendor/motorola/athene/proprietary/lib/libmbs.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmbs.so \
     vendor/motorola/athene/proprietary/lib/libmdmcutback.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdmcutback.so \
     vendor/motorola/athene/proprietary/lib/libminui.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libminui.so \
@@ -255,6 +243,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libwbxmlparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwbxmlparser.so \
     vendor/motorola/athene/proprietary/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwifi-hal-qcom.so \
     vendor/motorola/athene/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
+    vendor/motorola/athene/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
+    vendor/motorola/athene/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/motorola/athene/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/motorola/athene/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/motorola/athene/proprietary/vendor/bin/qseeproxydaemon:$(TARGET_COPY_OUT_VENDOR)/bin/qseeproxydaemon \
@@ -262,6 +253,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/motorola/athene/proprietary/vendor/bin/seemp_healthd:$(TARGET_COPY_OUT_VENDOR)/bin/seemp_healthd \
     vendor/motorola/athene/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
+    vendor/motorola/athene/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
+    vendor/motorola/athene/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/motorola/athene/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -269,9 +262,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/motorola/athene/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/motorola/athene/proprietary/vendor/lib/hw/gatekeeper.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8952.so \
     vendor/motorola/athene/proprietary/vendor/lib/hw/keystore.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8952.so \
+    vendor/motorola/athene/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so \
     vendor/motorola/athene/proprietary/vendor/lib/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-ims-rcscmjni.so \
     vendor/motorola/athene/proprietary/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsSDP.so \
@@ -292,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/motorola/athene/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/motorola/athene/proprietary/vendor/lib/libCommandSvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCommandSvc.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDRPlugin.so \
     vendor/motorola/athene/proprietary/vendor/lib/libDevHealth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDevHealth.so \
     vendor/motorola/athene/proprietary/vendor/lib/libExtendedExtractor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExtendedExtractor.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFIDOKeyProvisioning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFIDOKeyProvisioning.so \
@@ -349,12 +343,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalarmservice_jni.so \
     vendor/motorola/athene/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/motorola/athene/proprietary/vendor/lib/libaptXScheduler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXScheduler.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1cper.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crt.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crtx.so \
     vendor/motorola/athene/proprietary/vendor/lib/libassetsverifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libassetsverifier.so \
     vendor/motorola/athene/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/motorola/athene/proprietary/vendor/lib/libavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavenhancements.so \
@@ -767,18 +757,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/motorola/athene/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/motorola/athene/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libdrplugin_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrplugin_client.so \
     vendor/motorola/athene/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/motorola/athene/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libevent_observer.so \
     vendor/motorola/athene/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/motorola/athene/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/motorola/athene/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/motorola/athene/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
     vendor/motorola/athene/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/motorola/athene/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/motorola/athene/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/motorola/athene/proprietary/vendor/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimscamera_jni.so \
     vendor/motorola/athene/proprietary/vendor/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsmedia_jni.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
     vendor/motorola/athene/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
     vendor/motorola/athene/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
     vendor/motorola/athene/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
@@ -787,13 +779,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     vendor/motorola/athene/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/motorola/athene/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libloc_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ext.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libloc_xtra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_xtra.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice_glue.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
-    vendor/motorola/athene/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
-    vendor/motorola/athene/proprietary/vendor/lib/liblowi_wifihal_nl.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal_nl.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblqe.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/motorola/athene/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
@@ -957,7 +947,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libqti-gt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/motorola/athene/proprietary/vendor/lib/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_performance.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
     vendor/motorola/athene/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-ltedirectdisc.so \
     vendor/motorola/athene/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
     vendor/motorola/athene/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
@@ -974,7 +963,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsensorhubservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice_jni.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsettings.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libslimclient.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/motorola/athene/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/motorola/athene/proprietary/vendor/lib/libstlport_sta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport_sta.so \
@@ -995,7 +983,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwvdrm_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L1.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxt_native.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/athene/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
@@ -1007,6 +994,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/motorola/athene/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db
 
 PRODUCT_PACKAGES += \
