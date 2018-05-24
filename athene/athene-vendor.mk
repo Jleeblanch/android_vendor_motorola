@@ -49,17 +49,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/athene/proprietary/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8952 \
     vendor/motorola/athene/proprietary/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8976 \
-    vendor/motorola/athene/proprietary/etc/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a225_pfp.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a225_pm4.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a225p5_pm4.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pfp.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pm4.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a330_pfp.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a330_pm4.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a420_pfp.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a420_pm4.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a530_pfp.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a530_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
+    vendor/motorola/athene/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
+    vendor/motorola/athene/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
     vendor/motorola/athene/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/motorola/athene/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/athene/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
