@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod.xml:system/etc/permissions/com.motorola.mod.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod_config.xml:system/etc/permissions/com.motorola.mod_config.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod_v2.xml:system/etc/permissions/com.motorola.mod_v2.xml \
+    vendor/motorola/beckham/proprietary/etc/permissions/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml:system/etc/permissions/privapp-permissions-com.motorola.modservice.fmwkwrapper.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/privapp-permissions-com.motorola.modservice.xml:system/etc/permissions/privapp-permissions-com.motorola.modservice.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/privapp-permissions-com.motorola.projectormod.xml:system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml \
     vendor/motorola/beckham/proprietary/vendor/etc/thermal-engine-beckham.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-beckham.conf \

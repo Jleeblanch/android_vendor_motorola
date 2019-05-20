@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <permissions>
-    <privapp-permissions package="com.motorola.modservice">
+    <privapp-permissions package="com.motorola.modservice.fmwkwrapper">
 
         <!-- System defined permissions -->
         <permission name="android.permission.INTERACT_ACROSS_USERS" />
