@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/etc/zaf/zaf_imx386_mono.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386_mono.json \
     vendor/motorola/beckham/proprietary/vendor/etc/zaf/zaf_mot_s5k2l7sa.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_mot_s5k2l7sa.json \
     vendor/motorola/beckham/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
+    vendor/motorola/beckham/proprietary/lib64/libvibratorhw.so:system/lib64/libvibratorhw.so \
+    vendor/motorola/beckham/proprietary/lib64/motorola.hardware.vibrator@1.0.so:system/lib64/motorola.hardware.vibrator@1.0.so \
     vendor/motorola/beckham/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/beckham/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/motorola/beckham/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
@@ -432,7 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/motorola/beckham/proprietary/vendor/lib64/libvibratorhw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibratorhw.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/libvideobokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobokeh.so \
     vendor/motorola/beckham/proprietary/vendor/lib64/sensors.iio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.iio.so
 
