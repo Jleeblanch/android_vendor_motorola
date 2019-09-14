@@ -473,25 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lake/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/motorola/lake/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/motorola/lake/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/aw869x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/aw869x.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/bq2597x_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/bq2597x_mmi.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/ets_fps_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/ets_fps_mmi.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/himax_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/himax_mmi.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/mmi_pl_chg_manager.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_pl_chg_manager.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/mmi_sys_temp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mmi_sys_temp.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/nova_mmi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/nova_mmi.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/sensors_class.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sensors_class.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/sx933x_sar.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/sx933x_sar.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_core.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_device.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_device.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_diagnostics.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_diagnostics.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_i2c.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_i2c.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_recovery.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_recovery.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_reflash.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_reflash.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_testing.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_testing.ko \
-    vendor/motorola/lake/proprietary/vendor/lib/modules/synaptics_tcm_touch.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/synaptics_tcm_touch.ko \
     vendor/motorola/lake/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@2.0.so \
     vendor/motorola/lake/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/motorola/lake/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
