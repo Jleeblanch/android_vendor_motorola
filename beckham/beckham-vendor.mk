@@ -22,6 +22,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/beckham/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/beckham/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/beckham/proprietary/etc/firmware/MotorolaCapSense.hex:system/etc/firmware/MotorolaCapSense.hex \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.rx.ext.config.0:system/etc/firmware/opalum.rx.ext.config.0 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.rx.ext.config.1:system/etc/firmware/opalum.rx.ext.config.1 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.rx.ext.config.2:system/etc/firmware/opalum.rx.ext.config.2 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.rx.ext.config.3:system/etc/firmware/opalum.rx.ext.config.3 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.tx.ext.config.0:system/etc/firmware/opalum.tx.ext.config.0 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.tx.ext.config.1:system/etc/firmware/opalum.tx.ext.config.1 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.tx.ext.config.2:system/etc/firmware/opalum.tx.ext.config.2 \
+    vendor/motorola/beckham/proprietary/etc/firmware/opalum.tx.ext.config.3:system/etc/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/beckham/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.aov.xml:system/etc/permissions/com.motorola.aov.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod.protocols.xml:system/etc/permissions/com.motorola.mod.protocols.xml \
