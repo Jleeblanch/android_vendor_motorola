@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lake/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_624.xml \
     vendor/motorola/lake/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_h_1080p_624.xml \
     vendor/motorola/lake/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_1080p_624.xml \
+    vendor/motorola/lake/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_revvl_1080p_624.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_n_revvl_1080p_624.xml \
     vendor/motorola/lake/proprietary/vendor/firmware/aw869x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_haptic.bin \
     vendor/motorola/lake/proprietary/vendor/firmware/aw869x_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw869x_rtp.bin \
     vendor/motorola/lake/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
