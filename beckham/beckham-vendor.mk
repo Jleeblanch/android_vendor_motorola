@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_config.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/com.motorola.mod_v2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.mod_v2.xml \
+    vendor/motorola/beckham/proprietary/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/privapp-permissions-com.motorola.modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.modservice.xml \
     vendor/motorola/beckham/proprietary/etc/permissions/privapp-permissions-com.motorola.projectormod.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.projectormod.xml \
     vendor/motorola/beckham/proprietary/vendor/etc/zaf/zaf_imx386.json:$(TARGET_COPY_OUT_VENDOR)/etc/zaf/zaf_imx386.json \
@@ -460,5 +461,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ModFmwkProxyService \
     ModService \
+    MotCamera2 \
     ProjectorApp \
     ims
