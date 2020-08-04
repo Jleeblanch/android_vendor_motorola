@@ -161,7 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libOmxVpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxVpp.so \
     vendor/motorola/athene/proprietary/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_fpc_tac_shared.so \
     vendor/motorola/athene/proprietary/lib/lib_mottof.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_mottof.so \
-    vendor/motorola/athene/proprietary/lib/libbt-aptX-ARM-4.2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbt-aptX-ARM-4.2.2.so \
+    vendor/motorola/athene/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptXHD_encoder.so \
+    vendor/motorola/athene/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
     vendor/motorola/athene/proprietary/lib/libcamerabgproc-jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamerabgproc-jni.so \
     vendor/motorola/athene/proprietary/lib/libcamerabgprocservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamerabgprocservice.so \
     vendor/motorola/athene/proprietary/lib/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom_fingerprints_service.so \
@@ -332,8 +333,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libaptXScheduler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXScheduler.so \
     vendor/motorola/athene/proprietary/vendor/lib/libassetsverifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libassetsverifier.so \
     vendor/motorola/athene/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/motorola/athene/proprietary/vendor/lib/libavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavenhancements.so \
