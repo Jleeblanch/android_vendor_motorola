@@ -153,8 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensors.msm8952.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.msm8952.so \
-    vendor/motorola/athene/proprietary/lib/libOmxSwVencHevc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxSwVencHevc.so \
-    vendor/motorola/athene/proprietary/lib/libOmxVpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxVpp.so \
     vendor/motorola/athene/proprietary/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_fpc_tac_shared.so \
     vendor/motorola/athene/proprietary/lib/lib_mottof.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_mottof.so \
     vendor/motorola/athene/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptXHD_encoder.so \
@@ -173,8 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libjustshoot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjustshoot.so \
     vendor/motorola/athene/proprietary/lib/libmbs.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmbs.so \
     vendor/motorola/athene/proprietary/lib/libminui.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libminui.so \
-    vendor/motorola/athene/proprietary/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmm-omxcore.so \
-    vendor/motorola/athene/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmjpeg_interface.so \
     vendor/motorola/athene/proprietary/lib/libmodalityservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmodalityservice_jni.so \
     vendor/motorola/athene/proprietary/lib/libmorpho_image_stabilizer4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/athene/proprietary/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmot-qc-fd-offline.so \
@@ -186,14 +182,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libpkip.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpkip.so \
     vendor/motorola/athene/proprietary/lib/libprovlib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprovlib.so \
     vendor/motorola/athene/proprietary/lib/libqcomfm_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqcomfm_jni.so \
-    vendor/motorola/athene/proprietary/lib/libqomx_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqomx_core.so \
     vendor/motorola/athene/proprietary/lib/libsensorhub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorhub.so \
     vendor/motorola/athene/proprietary/lib/libsensorhubservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorhubservice_jni.so \
-    vendor/motorola/athene/proprietary/lib/libslowmotionconverter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libslowmotionconverter.so \
     vendor/motorola/athene/proprietary/lib/libslpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libslpc.so \
     vendor/motorola/athene/proprietary/lib/libtpa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtpa.so \
     vendor/motorola/athene/proprietary/lib/libtpa_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtpa_core.so \
-    vendor/motorola/athene/proprietary/lib/libvpplibrary.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvpplibrary.so \
     vendor/motorola/athene/proprietary/lib/libwbxmlparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwbxmlparser.so \
     vendor/motorola/athene/proprietary/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwifi-hal-qcom.so \
     vendor/motorola/athene/proprietary/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.color@1.0.so \
@@ -279,24 +272,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/motorola/athene/proprietary/vendor/lib/libCommandSvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCommandSvc.so \
     vendor/motorola/athene/proprietary/vendor/lib/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDRPlugin.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libExtendedExtractor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExtendedExtractor.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFIDOKeyProvisioning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFIDOKeyProvisioning.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoCrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFidoCrypto.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoCryptoJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFidoCryptoJNI.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoCryptov1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFidoCryptov1.so \
     vendor/motorola/athene/proprietary/vendor/lib/libFidoSuiJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFidoSuiJNI.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libGPTEE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE.so \
     vendor/motorola/athene/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
     vendor/motorola/athene/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
     vendor/motorola/athene/proprietary/vendor/lib/libHealthAuthClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHealthAuthClient.so \
     vendor/motorola/athene/proprietary/vendor/lib/libHealthAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHealthAuthJNI.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libHevcSwEncoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHevcSwEncoder.so \
     vendor/motorola/athene/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
     vendor/motorola/athene/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
@@ -334,7 +326,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/motorola/athene/proprietary/vendor/lib/libassetsverifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libassetsverifier.so \
     vendor/motorola/athene/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavenhancements.so \
     vendor/motorola/athene/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/motorola/athene/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/motorola/athene/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
