@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/athene/proprietary/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8952 \
-    vendor/motorola/athene/proprietary/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8976 \
+    vendor/motorola/athene/proprietary/vendor/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8952 \
+    vendor/motorola/athene/proprietary/vendor/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8976 \
     vendor/motorola/athene/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/motorola/athene/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
     vendor/motorola/athene/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
@@ -67,39 +67,39 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
     vendor/motorola/athene/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/athene/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_FE12MB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_FE12MB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_QE13MB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_QE13MB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_RC14MB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_RC14MB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_RC1BMB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_RC1BMB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_RE1BMB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_RE1BMB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_RX14MB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_15_RX1BMB.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_15_RX1BMB.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/emmc_ffu_90_A4_HAG4a2.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/emmc_ffu_90_A4_HAG4a2.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
-    vendor/motorola/athene/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
-    vendor/motorola/athene/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_FE12MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_FE12MB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_QE13MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_QE13MB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_RC14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC14MB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_RC1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC1BMB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_RE1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RE1BMB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_15_RX1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX1BMB.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/emmc_ffu_90_A4_HAG4a2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_90_A4_HAG4a2.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ice40.bin \
+    vendor/motorola/athene/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+    vendor/motorola/athene/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/motorola/athene/proprietary/etc/firmware/sensorhub-blacklist.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/sensorhub-blacklist.txt \
     vendor/motorola/athene/proprietary/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/athene/proprietary/etc/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat \
-    vendor/motorola/athene/proprietary/etc/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat \
-    vendor/motorola/athene/proprietary/etc/firmware/synaptics-lgd-s332u-16040503-1fb0fc-athene.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-lgd-s332u-16040503-1fb0fc-athene.tdat \
-    vendor/motorola/athene/proprietary/etc/firmware/synaptics-lgd-s332ult-15111303-1fb0fc-athene.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-lgd-s332ult-15111303-1fb0fc-athene.tdat \
-    vendor/motorola/athene/proprietary/etc/firmware/synaptics-s3346b-15062502-1debdd-athene-p0.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-s3346b-15062502-1debdd-athene-p0.tdat \
-    vendor/motorola/athene/proprietary/etc/firmware/synaptics-s3346lt-15062502-1debdd-athene-p0.tdat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/synaptics-s3346lt-15062502-1debdd-athene-p0.tdat \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b00 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b01 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b02 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b03 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.b04 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mbn \
-    vendor/motorola/athene/proprietary/etc/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus-v1.mdt \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b00 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b01 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b02 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b03 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.b04 \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
-    vendor/motorola/athene/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
+    vendor/motorola/athene/proprietary/vendor/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat \
+    vendor/motorola/athene/proprietary/vendor/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat \
+    vendor/motorola/athene/proprietary/vendor/firmware/synaptics-lgd-s332u-16040503-1fb0fc-athene.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-lgd-s332u-16040503-1fb0fc-athene.tdat \
+    vendor/motorola/athene/proprietary/vendor/firmware/synaptics-lgd-s332ult-15111303-1fb0fc-athene.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-lgd-s332ult-15111303-1fb0fc-athene.tdat \
+    vendor/motorola/athene/proprietary/vendor/firmware/synaptics-s3346b-15062502-1debdd-athene-p0.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3346b-15062502-1debdd-athene-p0.tdat \
+    vendor/motorola/athene/proprietary/vendor/firmware/synaptics-s3346lt-15062502-1debdd-athene-p0.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3346lt-15062502-1debdd-athene-p0.tdat \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b00 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b01 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b02 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b03 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b04 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.mbn \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.mdt \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
+    vendor/motorola/athene/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
     vendor/motorola/athene/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/athene/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.android.settings.shared.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.android.settings.shared.xml \
