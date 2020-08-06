@@ -19,8 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/athene
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/athene/proprietary/bin/cnss-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/cnss-daemon \
-    vendor/motorola/athene/proprietary/bin/cnss_diag:$(TARGET_COPY_OUT_SYSTEM)/bin/cnss_diag \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/athene/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -87,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
     vendor/motorola/athene/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
     vendor/motorola/athene/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
-    vendor/motorola/athene/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/athene/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.hw.sensorhub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hw.sensorhub.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
@@ -126,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmot_lux_standardization.so \
     vendor/motorola/athene/proprietary/lib/libmot_sensorlistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmot_sensorlistener.so \
     vendor/motorola/athene/proprietary/lib/libmotimager_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmotimager_utils.so \
-    vendor/motorola/athene/proprietary/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwifi-hal-qcom.so \
     vendor/motorola/athene/proprietary/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.color@1.0.so \
     vendor/motorola/athene/proprietary/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.0.so \
     vendor/motorola/athene/proprietary/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.1.so \
@@ -137,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/motorola/athene/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/athene/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
+    vendor/motorola/athene/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/motorola/athene/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/motorola/athene/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/motorola/athene/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
@@ -838,6 +835,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/athene/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libwifi-hal-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-qcom.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
