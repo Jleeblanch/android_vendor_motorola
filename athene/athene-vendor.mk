@@ -22,11 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:$(TARGET_COPY_OUT_SYSTEM)/bin/charge_only_mode \
     vendor/motorola/athene/proprietary/bin/cnss-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/cnss-daemon \
     vendor/motorola/athene/proprietary/bin/cnss_diag:$(TARGET_COPY_OUT_SYSTEM)/bin/cnss_diag \
-    vendor/motorola/athene/proprietary/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/hal_proxy_daemon \
     vendor/motorola/athene/proprietary/bin/motobox:$(TARGET_COPY_OUT_SYSTEM)/bin/motobox \
     vendor/motorola/athene/proprietary/bin/motosh:$(TARGET_COPY_OUT_SYSTEM)/bin/motosh \
-    vendor/motorola/athene/proprietary/bin/pm-proxy:$(TARGET_COPY_OUT_SYSTEM)/bin/pm-proxy \
-    vendor/motorola/athene/proprietary/bin/pm-service:$(TARGET_COPY_OUT_SYSTEM)/bin/pm-service \
     vendor/motorola/athene/proprietary/bin/sensors.qcom:$(TARGET_COPY_OUT_SYSTEM)/bin/sensors.qcom \
     vendor/motorola/athene/proprietary/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM)/bin/tcmd \
     vendor/motorola/athene/proprietary/bin/tcmdhelp:$(TARGET_COPY_OUT_SYSTEM)/bin/tcmdhelp \
@@ -193,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/motorola/athene/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/motorola/athene/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
+    vendor/motorola/athene/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
+    vendor/motorola/athene/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/motorola/athene/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/motorola/athene/proprietary/vendor/bin/qmi_motext_hook:$(TARGET_COPY_OUT_VENDOR)/bin/qmi_motext_hook \
     vendor/motorola/athene/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
