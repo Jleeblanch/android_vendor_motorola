@@ -459,6 +459,5 @@ PRODUCT_PACKAGES += \
     MotoSignatureApp \
     ModFmwkProxyService \
     ModService \
-    MotCamera2 \
     ProjectorApp \
     ims
