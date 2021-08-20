@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_593.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_593.xml \
     vendor/motorola/evert/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_593.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_593.xml \
     vendor/motorola/evert/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_593.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_593.xml \
+    vendor/motorola/evert/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/evert/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/motorola/evert/proprietary/vendor/firmware/focaltech-auo-ft5x46-03-0001-evert.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-auo-ft5x46-03-0001-evert.bin \
     vendor/motorola/evert/proprietary/vendor/firmware/focaltech-djn-ft5x46-15-0001-evert.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djn-ft5x46-15-0001-evert.bin \
